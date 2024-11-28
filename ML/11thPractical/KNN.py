@@ -15,3 +15,8 @@ y_pred=knn.predict(X_test)
 accuracy=accuracy_score(y_test,y_pred)
 print(f'Accuracy: {accuracy * 100:.2f}%')
 
+
+
+import pandas as pd 
+df=pd.read_csv('Candy_data.csv')
+print(df)
